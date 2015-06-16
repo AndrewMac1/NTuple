@@ -941,7 +941,7 @@ bool Converter::Run() {
                                     }
                                 }
                             }
-                            angle = GriffinCryMap[(int)((4*fGriffinDetector->at(firstDet).DetectorId())+cry1)][(int)((4*fGriffinDetector->at(firstDet).DetectorId())+cry2)];
+                            angle = 0;
                             for(int i = 0; i < 52; i++) {
                                 if(GriffinCryMapCombos[i][0] == angle) {
                                     norm = (double)GriffinCryMapCombos[i][1];
